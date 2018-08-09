@@ -1,24 +1,54 @@
-<div>1
-  <button>On</button>
-  <button>Off</button>
+<label>1</label>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="1" data-outletStatus="on" class="btn btn-default toggleOutlet">On</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="1" data-outletStatus="off" class="btn btn-default toggleOutlet">Off</button>
+  </div>
 </div>
-<div>2
-  <button>On</button>
-  <button>Off</button>
+<label>2</label>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="2" data-outletStatus="on" class="btn btn-default toggleOutlet">On</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="2" data-outletStatus="off" class="btn btn-default toggleOutlet">Off</button>
+  </div>
 </div>
-<div>3
-  <button>On</button>
-  <button>Off</button>
+<label>3</label>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="3" data-outletStatus="on" class="btn btn-default toggleOutlet">On</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="3" data-outletStatus="off" class="btn btn-default toggleOutlet">Off</button>
+  </div>
 </div>
-<div>4
-  <button>On</button>
-  <button>Off</button>
+<label>4</label>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="4" data-outletStatus="on" class="btn btn-default toggleOutlet">On</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="4" data-outletStatus="off" class="btn btn-default toggleOutlet">Off</button>
+  </div>
 </div>
-<div>5
-  <button>On</button>
-  <button>Off</button>
+<label>5</label>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="5" data-outletStatus="on" class="btn btn-default toggleOutlet">On</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="5" data-outletStatus="off" class="btn btn-default toggleOutlet">Off</button>
+  </div>
 </div>
-<div>All
-  <button>On</button>
-  <button>Off</button>
+<label>All</label>
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="6" data-outletStatus="on" class="btn btn-default toggleOutlet">On</button>
+  </div>
+  <div class="btn-group" role="group">
+    <button type="button" data-outletId="6" data-outletStatus="off" class="btn btn-default toggleOutlet">Off</button>
+  </div>
 </div>
