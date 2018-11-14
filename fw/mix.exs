@@ -37,7 +37,7 @@ defmodule Fw.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:nerves, "~> 1.0", runtime: false},
+      {:nerves, "~> 1.3", runtime: false},
       {:nerves_network, "~> 0.3"},
       {:ui, path: "../ui"},
       {:shoehorn, "~> 0.2"}
@@ -49,12 +49,13 @@ defmodule Fw.MixProject do
 
   defp deps(target) do
     [
-      {:nerves_runtime, "~> 0.4"}
+      {:nerves_runtime, "~> 0.8"}
     ] ++ system(target)
   end
 
   defp system("rpi"), do: [{:nerves_system_rpi, "~> 1.0", runtime: false}]
   defp system("rpi0"), do: [{:nerves_system_rpi0, "~> 1.0", runtime: false}]
+  defp system("rpi0_wiringPi"), do: [{:nerves_system_rpi0_wiringPi, path: "../nerves_system_rpi0_wiringPi", runtime: false}]
   defp system("rpi2"), do: [{:nerves_system_rpi2, "~> 1.0", runtime: false}]
   defp system("rpi3"), do: [{:nerves_system_rpi3, "~> 1.0", runtime: false}]
   defp system("bbb"), do: [{:nerves_system_bbb, "~> 1.0", runtime: false}]
